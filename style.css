@@ -1,9 +1,17 @@
 .cabecalho{
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
     align-items: center;
   }
 
+
+  .main-title {
+    font-size: 3rem;
+    color: var(--dark-neutral);
+    line-height: 1.2;
+    margin-bottom: 20px;  
+
+  }
 .cabecalho-titulo{
     color: pink;
     font-weight: 800;
@@ -14,12 +22,23 @@
     unicode-bidi: isolate;
 }
 
+.cabecalho-menu-item{
     text-decoration: none;
-    color: green
+    color: green;
     margin: 0 15px;
     font-weight: 600;
     transition: color 0.2s;
 
 
-
-    .cabecalho-menu-item
+ header-container 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: var(--bg-color);
+    box-shadow: 0 2px 10px rgba(94, 79, 92, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 5%;
+    
